@@ -28,9 +28,11 @@
 `git status`
 `git status -s` (versão resumida)
 
-**git diff**: Exibe as diferenças exatas de código antes do commit.
-`git diff`
-`git diff --staged` (vê o que está pronto para o commit)
+**echo**: Cria e exibe textos dentro de arquivos
+`echo "texto" > arquivo.txt` 
+cria um arquivo chamado arquivo.txt com o conteúdo "texto". Se o arquivo já existir, ele será apagado e substituído.
+`echo "conteúdo" >> arquivo.txt` adiciona uma nova linha com "conteúdo" ao final do arquivo
+
 
 ## 3. Sincronização com o GitHub
 
